@@ -60,6 +60,15 @@ All models achieved high accuracy due to the clear separability of the Iris data
 Logistic Regression was selected as the final model because of its consistent performance and simplicity.
 
 ---
+##📸 Output Visualizations
+
+### Pair Plot of Iris Features
+![Pair Plot](images/pairplot.png)
+
+### Confusion Matrix (Logistic Regression)
+![Confusion Matrix](images/confusion_matrix.png)
+
+---
 
 ## 🧠 Conclusion
 This project demonstrates that simple machine learning algorithms can achieve excellent performance on well-structured datasets. It highlights the importance of exploratory data analysis, model comparison, and proper evaluation techniques in machine learning.
@@ -82,10 +91,3 @@ This project demonstrates that simple machine learning algorithms can achieve ex
 3. Run the Python script:
    ```bash
    python iris_classification.py
-##📸 Output Visualizations
-
-### Pair Plot of Iris Features
-![Pair Plot](images/pairplot.png)
-
-### Confusion Matrix (Logistic Regression)
-![Confusion Matrix](images/confusion_matrix.png)
