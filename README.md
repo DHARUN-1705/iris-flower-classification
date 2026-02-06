@@ -82,3 +82,10 @@ This project demonstrates that simple machine learning algorithms can achieve ex
 3. Run the Python script:
    ```bash
    python iris_classification.py
+##📸 Output Visualizations
+
+### Pair Plot of Iris Features
+![Pair Plot](images/pairplot.png)
+
+### Confusion Matrix (Logistic Regression)
+![Confusion Matrix](images/confusion_matrix.png)
