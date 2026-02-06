@@ -1,9 +1,9 @@
 # Iris Flower Classification using Machine Learning
 
 ## 📌 Project Overview
-This project focuses on classifying iris flowers into three species — **Setosa**, **Versicolor**, and **Virginica** — based on their sepal and petal measurements using supervised machine learning techniques.
+This project focuses on classifying iris flowers into three species — **Setosa**, **Versicolor**, and **Virginica** — based on sepal and petal measurements using supervised machine learning techniques.
 
-The goal of this project is to understand and implement the complete machine learning workflow, including data exploration, model training, evaluation, and prediction.
+The objective of this project is to understand and implement the complete machine learning workflow, including data exploration, model comparison, evaluation, and prediction.
 
 ---
 
@@ -11,38 +11,33 @@ The goal of this project is to understand and implement the complete machine lea
 - **Dataset Name:** Iris Dataset
 - **Source:** scikit-learn built-in dataset
 - **Number of Samples:** 150
-- **Features:**
-  - Sepal length
-  - Sepal width
-  - Petal length
-  - Petal width
-- **Target Variable:** Iris flower species
+- **Number of Features:** 4
+- **Target Classes:** Setosa, Versicolor, Virginica
 
-The dataset is clean and does not contain any missing values.
+The dataset is clean, balanced, and does not contain missing values.
 
 ---
 
 ## ⚙️ Machine Learning Models Used
-The following supervised learning models were implemented and compared:
+The following classification models were implemented and compared:
 
 - Logistic Regression
 - K-Nearest Neighbors (KNN)
 - Decision Tree Classifier
 
+Logistic Regression was selected as the final model due to its simplicity, interpretability, and consistent performance.
+
 ---
 
 ## 🔍 Methodology
-The project follows these steps:
-
 1. Load the Iris dataset
 2. Perform exploratory data analysis using pair plots
 3. Split the dataset into training and testing sets
 4. Train multiple classification models
-5. Compare model performance using accuracy
-6. Select the best-performing model
-7. Evaluate the model using a confusion matrix
-8. Validate performance using cross-validation
-9. Predict the species for a new sample input
+5. Compare models using accuracy
+6. Evaluate the best model using a confusion matrix
+7. Validate performance using cross-validation
+8. Predict the species for a new sample input
 
 ---
 
@@ -51,16 +46,19 @@ The project follows these steps:
 - Confusion Matrix
 - Cross-Validation Accuracy
 
-Cross-validation helps ensure that the model generalizes well to unseen data.
+---
+
+## 📊 Model Performance
+- **Logistic Regression Accuracy:** 100%
+- **KNN Accuracy:** 100%
+- **Decision Tree Accuracy:** 100%
+- **Mean Cross-Validation Accuracy:** 97.33%
+
+High accuracy is achieved due to the clear separability of classes in the Iris dataset.
 
 ---
 
-## ✅ Results
-All models achieved high accuracy due to the clear separability of the Iris dataset.  
-Logistic Regression was selected as the final model because of its consistent performance and simplicity.
-
----
-📸 Output Visualizations
+## 📸 Output Visualizations
 
 ### Pair Plot of Iris Features
 ![Pair Plot](images/pairplot.png)
@@ -71,12 +69,12 @@ Logistic Regression was selected as the final model because of its consistent pe
 ---
 
 ## 🧠 Conclusion
-This project demonstrates that simple machine learning algorithms can achieve excellent performance on well-structured datasets. It highlights the importance of exploratory data analysis, model comparison, and proper evaluation techniques in machine learning.
+This project demonstrates that simple supervised learning models can achieve excellent performance on well-structured datasets. It highlights the importance of data visualization, model comparison, and validation techniques in machine learning.
 
 ---
 
 ## 🛠️ Tools & Technologies
-- Python
+- Python 3.x
 - NumPy
 - Pandas
 - Matplotlib
@@ -86,8 +84,5 @@ This project demonstrates that simple machine learning algorithms can achieve ex
 ---
 
 ## ▶️ How to Run the Project
-1. Clone or download this repository
-2. Install the required Python libraries
-3. Run the Python script:
-   ```bash
-   python iris_classification.py
+```bash
+python iris_classification.py
