@@ -60,7 +60,7 @@ All models achieved high accuracy due to the clear separability of the Iris data
 Logistic Regression was selected as the final model because of its consistent performance and simplicity.
 
 ---
-##📸 Output Visualizations
+📸 Output Visualizations
 
 ### Pair Plot of Iris Features
 ![Pair Plot](images/pairplot.png)
